@@ -4,4 +4,14 @@
     margin: 10px;
     display: inline-block;
     width: 150px;
+    transition: transform 1.2s;
+}
+
+.intes {
+    margin-top: 150px;
+}
+
+.box-iten:hover {
+    transform: scale(1.2);
+    /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
