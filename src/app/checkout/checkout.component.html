@@ -4,21 +4,24 @@
     <div class="jumbotron">
       <div class="container">
         <!-- h1 e p que já tínhamos -->
-        <h1> Ótima escolha! </h1>
-        <p>Obrigado por alugar através da nossa plataforma! Preencha seus dados para efetivar a sua locação.</p>
+        <h1>Ótima escolha!</h1>
+        <p class="descritption">Obrigado por alugar através da nossa plataforma! Preencha seus dados para efetivar a sua locação.</p>
       </div>
     </div>
   </div>
+
   <div class="col-sm-4">
     <div class="panel panel-default">
       <div class="panel-heading">
-        <h2 class="panel-title">Sua compra</h2>
+        <h2 class="panel-title">Sua seleção</h2>
       </div>
 
       <div class="panel-body">
 
-        <img class="img-thumbnail img-responsive" src="assets/img/bicicleta01.jpeg" alt="bicicleta">
-
+        <div class="text-center">
+          <img src="assets/img/bicicleta01.jpeg" alt="bicicleta">
+        </div>
+        <hr>
         <div>
           <label>Nome:</label>
           <span>Bicicleta</span>
@@ -109,10 +112,10 @@
     <div class="row">
       <div class="col-md-12 text-right">
         <hr>
-        <button type="submit" class="btn btn-primary botao-proximo">Finalizar</button>
+        <a routerLink="/finished" class="btn btn-primary botao-proximo">Finalizar</a>
       </div>
     </div>
-    
+
   </form>
 
 </div>

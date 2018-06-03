@@ -1,0 +1,13 @@
+.img-success {
+    margin-top: 40px;
+}
+
+.operation-information {
+    margin-top: 100px;
+}
+
+@media (max-width: 768px) {
+    .operation-information {
+        margin-top: 40px;
+    }
+}

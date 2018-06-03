@@ -13,3 +13,16 @@
 .botao-proximo {
     margin-bottom: 10px;
 }
+
+.bloco-checkout {
+    margin-top: 15px;
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 25px;
+    }
+    .descritption {
+        font-size: 15px;
+    }
+}
