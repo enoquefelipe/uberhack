@@ -1,3 +1,71 @@
-<p>
-  details works!
-</p>
+<div class="segura">
+  <h1>Detalhes do Produto</h1>
+        <div class="cont-imagem">
+          <img class="img-details" src="assets/img/bicicleta01.jpeg" alt="logo">
+        </div>
+        <div class="cont-details">
+          <div class="sub-bloco descricao">
+            <label>Nome:</label>Bicicleta
+          </div>
+          <div class="sub-bloco descricao">
+            <label>Tipo:</label>Caloi
+          </div>
+          <div class="sub-bloco descricao">
+            <label>Cor:</label>Preta
+          </div>
+          <div class="sub-bloco descricao">
+            <label>Faixa Etaria:</label>Adulto
+          </div>
+          <div class="sub-bloco descricao">
+            <label>Aro:</label>15
+          </div>
+
+        </div>
+
+        <div class="cont-details">
+          <div class="sub-bloco descricao">
+            <label>Marchas:</label>5
+          </div>
+          <div class="sub-bloco descricao">
+            <label>Corrente:</label>KMC
+          </div>
+          <div class="sub-bloco descricao">
+            <label>Pedal:</label>Plástico
+          </div>
+          <div class="sub-bloco descricao">
+            <label>Guidão:</label>MTB
+          </div>
+          <div class="sub-bloco descricao">
+            <label>Peso maximo Suportado:</label>100 kg
+          </div>
+        </div>
+</div>
+<div class="linha"></div>
+<a routerLink="/payment"><div class="bnt-alugar">Alugar</div></a>
+
+<div class="pagamento">
+  <h1>Pagamento</h1>
+  <div class="cont-pagamento">
+    <form>
+      <input class="box_pague" type="date" placeholder="Data de inicio">
+      <input class="box_pague" type="text" placeholder="Hora de inicio">
+      <input class="box_pague" type="date" placeholder="Data de entrega">
+      <input class="box_pague" type="text" placeholder="Hora de entrega">
+
+      <div class="txt_pague">Forma de Pagamento</div>
+      <select class="box_pague" name="">
+        <option value="">Debito</option>
+        <option value="">Credito</option>
+      </select>
+
+      <div class="txt_pague">Bandeiras</div>
+      <select class="box_pague" name="">
+        <option value="">Caixa</option>
+        <option value="">Itau</option>
+      </select>
+
+      <input class="box_pague" type="text" placeholder="Numero do cartão">
+      <a routerLink="/payment"><div class="btn-finalizar">Finalizar</div></a>
+    </form>
+  </div>
+</div>
