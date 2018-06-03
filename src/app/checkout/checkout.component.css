@@ -25,4 +25,15 @@
     .descritption {
         font-size: 15px;
     }
+
+    .jumbotron{
+        padding-top: 0px;
+        padding-bottom: 3px;
+        margin-bottom: 7px;
+    }
+
+    .bloco-pagamento {
+        padding-top: 20px;
+        margin-top: 20px;
+    }
 }
