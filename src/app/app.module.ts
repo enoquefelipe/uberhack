@@ -7,9 +7,10 @@ import { ItemLocacaoComponent } from './item-locacao/item-locacao.component';
 import { OptionListComponent } from './option-list/option-list.component';
 import { DetailsComponent } from './details/details.component';
 import { PaymentComponent } from './payment/payment.component';
+import { CheckoutComponent } from './checkout/checkout.component';
 
 @NgModule({
-  declarations: [AppComponent, ItemLocacaoComponent, OptionListComponent, DetailsComponent, PaymentComponent],
+  declarations: [AppComponent, ItemLocacaoComponent, OptionListComponent, DetailsComponent, PaymentComponent, CheckoutComponent],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
   bootstrap: [AppComponent]

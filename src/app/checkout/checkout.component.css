@@ -1,0 +1,15 @@
+.form-control:invalid {
+    border: 1px solid #cc0000;
+}
+
+.navbar {
+    margin: 5px;
+}
+
+#img {
+    width: 70px;
+}
+
+.bloco-checkout {
+    margin-top: 10px;
+}
