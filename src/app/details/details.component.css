@@ -2,6 +2,10 @@
   margin-top: 70px;
 }
 
+.botao-proximo {
+  margin-bottom: 10px;
+}
+
 @media (max-width: 768px) {
   body {
     margin: 0%;
